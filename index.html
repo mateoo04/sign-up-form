@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terra - Create account</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/85086d0d83.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="image-container"></div>
 
         <div class="main-content">
-            <h1>TERRA</h1>
+            <h1><i class="fa-solid fa-plane"></i>TERRA</h1>
             <p class="description">Indulge in the essence of refined travel. Curating exquisite journeys,
                 exclusive offers, and hidden gems, designed to elevate your adventures to
                 unparalleled heights.</p>
@@ -24,27 +25,27 @@
 
                     <div class="input-container">
                         <label for="first-name">First Name</label>
-                            <input id="first-name" type="text" required>
+                            <input id="first-name" type="text" class="data-input" required>
                     </div>
                     <div class="input-container">
                         <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" required>
+                            <input type="text" id="last-name" class="data-input" required>
                     </div>
                     <div class="input-container">
                         <label for="email">E-Mail</label>
-                            <input type="mail" id="email" required>
+                            <input type="email" id="email" class="data-input" required>
                     </div>
                     <div class="input-container">
                         <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" required>
+                            <input type="tel" id="phone-number" class="data-input" pattern="[0-9]" required>
                     </div>
                     <div class="input-container">
                         <label for="password">Password</label>
-                            <input type="password" id="password" required>
+                            <input type="password" id="password" class="data-input" required>
                     </div>
                     <div class="input-container">
                         <label for="password">Confirm password</label>
-                            <input type="password" id="password" required>
+                            <input type="password" id="password" class="data-input" required>
                     </div>
                     <input type="submit" value="Create account">
                 </form>
