@@ -19,6 +19,16 @@ main{
     box-sizing: border-box;
     margin: 40px;
     width: 54%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    max-width: 500px;
+}
+
+.sign-up{
+    margin-top: 10%;
 }
 
 form{
@@ -38,8 +48,33 @@ form{
 label{
     text-transform: uppercase;
     font-size: 0.7em;
+    color: #575757;
 }
 
-input{
+.input-container input{
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
 
+input[type="submit"]{
+    background-color: #2292ac;
+    border: 0;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #ededed;
+}
+
+input[type="submit"]:hover{
+background-color: #1f859c;
+}
+
+a{
+    text-decoration: none;
+    color: #2292ac;
+}
+
+a:hover{
+    text-decoration: underline;
 }
