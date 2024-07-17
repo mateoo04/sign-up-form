@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+.image-container{
+    width: 46%;
+    height: 100%;
+    background-image: url(daniel-j-schwarz-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+
+.main-content{
+    box-sizing: border-box;
+    margin: 40px;
+    width: 54%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+.input-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 10px;
+} 
+
+label{
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+input{
+
+}
