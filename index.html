@@ -26,27 +26,27 @@
 
                     <div class="input-container">
                         <label for="first-name">First Name</label>
-                            <input id="first-name" type="text" class="data-input" required>
+                            <input id="first-name" type="text" class="data-input" autocapitalize="given-name" required>
                     </div>
                     <div class="input-container">
                         <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" class="data-input" required>
+                            <input type="text" id="last-name" class="data-input" autocomplete="family-name" required>
                     </div>
                     <div class="input-container">
                         <label for="email">E-Mail</label>
-                            <input type="email" id="email" class="data-input" required>
+                            <input type="email" id="email" class="data-input" autocomplete="email" required>
                     </div>
                     <div class="input-container">
                         <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" class="data-input" pattern="[0-9]" required>
+                            <input type="tel" id="phone-number" class="data-input" pattern="[0-9]{6,}" autocomplete="tel" required>
                     </div>
                     <div class="input-container">
                         <label for="password">Password</label>
-                            <input type="password" id="password" class="data-input" required>
+                            <input type="password" id="password" autocomplete="new-password" class="data-input" required>
                     </div>
                     <div class="input-container">
                         <label for="password">Confirm password</label>
-                            <input type="password" id="password" class="data-input" required>
+                            <input type="password" id="password" autocomplete="new-password" class="data-input" required>
                     </div>
                     <input type="submit" value="Create account">
                 </form>
